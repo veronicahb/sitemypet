@@ -14,5 +14,26 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('principal');
+});
+Route::get('/aplicativo', function () {
+    return view('aplicativo');
+});
+Route::get('/ajuda', function () {
+    return view('ajuda');
+});
+Route::get('/contribua', function () {
+    return view('contribua');
+});
+Route::get('/sobre', function () {
+    return view('sobre');
+});
+Route::get('/termos', function () {
+    return view('termos');
+});
+Route::get('/tags', function () {
+    return view('tags');
+});
+Route::get('/utilizar', function () {
+    return view('utilizar');
 });
