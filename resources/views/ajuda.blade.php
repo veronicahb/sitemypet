@@ -17,10 +17,12 @@
         <div><img src="img/linha.png" alt="linha"/></div>
     </header>
     <nav>
-        <h1>
-        Sua ONG necessita de nossa ajuda? Entre em contato conosco! 
-        </h1>
-        <img src="img/sociais.png" alt="sociais"/>   
+        <div><img src="img/patinhas.png" alt="patinhas"/></div> 
+        <div>
+            <h1> ONG necessita de nossa ajuda? Entre em contato conosco!</h1>
+            <picture><img src="img/sociais.png" alt="sociais"/></picture>
+        </div>
+        <div><img src="img/patinhas.png" alt="patinhas"/></div>  
     </nav>
 </body>
 </html>

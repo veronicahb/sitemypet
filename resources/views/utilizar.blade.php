@@ -17,12 +17,13 @@
         <div><img src="img/linha.png" alt="linha"/></div>
     </header>
     <nav>
-        <h1>Como utilizar</h1>
-        <img src="img/tela.png" alt="tela"/>
-        <h3><- Selecione a tag funcional e preencha os dados necessários</h3>
-        <img src="img/icons.png" alt="icons"/>
-        <h3>Poste e anuncie! -></h3>
-        <h3>Navegue pelo aplicativo e fique de olho em outras postagens!</h3>
+        <div><img src="img/patinhas.png" alt="patinhas"/></div>
+        <div>
+            <h1>Como utilizar</h1>
+            <div><img src="img/tela.png" alt="tela"/></div>
+            <h3>Navegue pelo aplicativo e fique de olho em outras postagens!</h3>
+        </div>
+        <div><img src="img/patinhas.png" alt="patinhas"/></div>
     </nav>
 </body>
 </html>

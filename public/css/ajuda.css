@@ -33,13 +33,37 @@ a{
 }
 
 h1{
+    width: 913px;
+    height: 100px;
+    grid-template-columns: repeat(6, 1fr);
     font-family: "Baloo";
     font-size: 30px;
     color: #432306;
     align-items: center;
+    text-align: center;
+    margin-top: 5rem;
 }
 
-nav img{
-    width: 400px;
-    height: 422px;
+nav{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    max-width: 100%;
+    justify-content: space-between;
+    grid-gap: 70;
+}
+
+nav div picture img{
+    width: 350px;
+    height: 372px;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-left: 16rem;
+}
+
+nav div img{
+    width: 218px;
+    height: 991px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
 }

@@ -17,11 +17,13 @@
         <div><img src="img/linha.png" alt="linha"/></div>
     </header>
     <nav>
-        <h1>Sobre o app My Pet</h1>
-        <h3>
-        O My Pet app é o aplicativo em forma de rede social para tornar toda ajuda disponível mais prática e ágil. Com a utilização de sua localização, conseguimos te colocar em contato com outros usuários perto de você. No app você pode relatar o desaparecimento de pets, encontro e adoção. ONGs também podem publicar suas notícias e receber ajuda!
-        </h3>
-        <img src="img/baixar.png" alt="baixar"/>
+        <div><img src="img/patinhas.png" alt="patinhas"/></div>
+        <div>
+            <h1>Sobre o app My Pet</h1>
+            <h3>O My Pet app é o aplicativo em forma de rede social para tornar toda ajuda disponível mais prática e ágil. Com a utilização de sua localização, conseguimos te colocar em contato com outros usuários perto de você. No app você pode relatar o desaparecimento de pets, encontro e adoção. ONGs também podem publicar suas notícias e receber ajuda!</h3>
+            <div><img src="img/baixar.png" alt="baixar"/></div>
+        </div>
+        <div><img src="img/patinhas.png" alt="patinhas"/></div>
     </nav>
 </body>
 </html>
