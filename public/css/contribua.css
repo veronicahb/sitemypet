@@ -26,8 +26,104 @@ picture img{
 
 a{    
     font-family: "Baloo";
-    font-size: 30px;
+    font-size: 25px;
     color: #5E452E;
     margin-top: 0.5rem;
     margin-left: 60px;
+}
+
+.bg-login{
+    background-color: #9fe699;
+}
+
+.bg-botao{
+    background-color: #5E452E;
+}
+
+main {
+    margin-top: 1.5rem;
+}
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+main table thead tr th {
+    border-bottom: 2px solid #5E452E;
+    font-family: "Baloo";
+    font-size: 20px;
+    color: #5E452E;
+}
+
+main table tbody td{
+    border-bottom: 1px solid #5E452E;
+    font-family: "Baloo Bhai 2";
+    font-size: 15px;
+    color: #5E452E;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+[class*="col-"] {
+    float: left;
+    padding: 0.3rem;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin: 1rem 0;
+}
+
+.button {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #9fe699;
+    border: 0;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    margin: 0.5rem 1.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: "Baloo";
+}
+
+div label{
+    font-family: "Baloo";
+    font-size: 15px;
+    color: #5E452E;
 }

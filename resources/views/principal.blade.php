@@ -13,7 +13,17 @@
         <a href="/">Principal</a>
         <a href="/aplicativo">Aplicativo</a>
         <a href="/ajuda">Ajuda</a>
-        <a href="/contribua">Contribua</a>
+        @if (Route::has('login'))
+            @auth
+            <a href="{{ url('/contribuinte') }}">Contribuições</a>
+            @else
+            <a href="{{ route('login') }}">Entrar</a>
+
+            @if (Route::has('register'))
+            <a href="{{ route('register') }}">Cadastrar</a>
+            @endif
+            @endauth
+        @endif
         <div><img src="img/linha.png" alt="linha"/></div>
     </header>
     <nav>

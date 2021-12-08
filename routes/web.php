@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ContribuinteController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,9 +22,7 @@ Route::get('/aplicativo', function () {
 Route::get('/ajuda', function () {
     return view('ajuda');
 });
-Route::get('/contribua', function () {
-    return view('contribua');
-});
+
 Route::get('/sobre', function () {
     return view('sobre');
 });
@@ -36,4 +34,13 @@ Route::get('/tags', function () {
 });
 Route::get('/utilizar', function () {
     return view('utilizar');
+});
+Route::middleware(['auth:sanctum', 'verified'])->group(
+    function () {
+
+    Route::get('/dashboard', function () {
+      return view('dashboard');
+    })->name('dashboard');
+  
+    Route::resource("/contribuinte", ContribuinteController::class);
 });
